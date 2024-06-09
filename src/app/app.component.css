@@ -1,0 +1,52 @@
+body{
+  
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    max-height: 30vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.center-container {
+    display: flex; /* Utilizamos flexbox para centrar verticalmente */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+    height: 50vh; /* Establecemos la altura del contenedor al 100% del viewport */
+  }
+  
+  .custom-card {
+    width: 1000px; /* Tamaño específico del card */
+    height: 100px;  
+    justify-content: space-between; /* Divide las cartas */
+    display: flex;
+    background-color: #808B96;
+
+  }
+  
+  .hoj{
+
+    width: calc(50% - 5px); /* Ajusta el tamaño de cada carta */  
+    justify-content: center;
+    background-color: #F1948A;
+  }
+
+  .perf{
+
+    width: calc(50% - 5px); 
+    justify-content: center;  
+    background-color: #AED6F1;
+
+  }
+
+  .bp, .bh{
+  
+  display: flex;
+  font-size: 20px; /* Tamaño del texto de los botones */
+  padding: 40px 60px; /* Espaciado interno de los botones */
+
+  }
+
+  
